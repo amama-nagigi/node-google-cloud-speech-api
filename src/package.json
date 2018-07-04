@@ -1,0 +1,17 @@
+{
+  "name": "node-google-cloud-speech-api",
+  "version": "1.0.0",
+  "description": "Node.jsからGoogleのCloud Speech APIを呼び出してみる",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^1.5.0",
+    "dotenv": "^6.0.0",
+    "node-record-lpcm16": "^0.3.0"
+  },
+  "devDependencies": {}
+}
